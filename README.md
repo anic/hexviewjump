@@ -6,11 +6,13 @@ Installing the plugin is as simple as copying the files hewviewjump.py to the ``
 
 ## Use cases
 - case 1 
-double click the content as a pointer in the HexView, it will jump to the memory of that piointer.
+
+Double click the content as a pointer in the HexView, it will jump to the memory of that piointer.
 
 - case 2 
-press the shortcut G, input the expression of address (eg. rax,*rax). If ```rax``` is input, it will jump to the memory of rax as pointer, as the default function in JumpAsk. If ```*rax``` is input, it will get the content of rax first, use it as an pointer, and jump to the memory of that pointer. 
 
-NOTE: 
+Press the shortcut G, input the expression of address (eg. rax,*rax). If ```rax``` is input, it will jump to the memory of rax as pointer, as the default function in JumpAsk. If ```*rax``` is input, it will get the content of rax first, use it as an pointer, and jump to the memory of that pointer. 
+
+## Use cases
 - This plugin will replace the default JumpAsk of IDA.
 - Only available in IDA 7.0 .
