@@ -5,7 +5,7 @@ Installing the plugin is as simple as copying the files hewviewjump.py to the ``
 ## Use cases
 - case 1 
 
-Double click the content as a pointer in the HexView, it will jump to the memory of that piointer.
+Double click the content as a pointer in the HexView, it will jump to the memory of that pointer.
 
 - case 2 
 

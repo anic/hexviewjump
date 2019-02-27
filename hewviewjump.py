@@ -10,7 +10,7 @@ class HexViewjumpPlugin(idaapi.plugin_t):
 	comment = "hewview jump t0 addresss"
 	help = "hewview jump"
 	wanted_name = "hewview jump "
-	wanted_hotkey = "G"  #override G shortcut
+	wanted_hotkey = "Ctrl+G"  #override G shortcut
 	index = 1
 
 	def init(self):	  
